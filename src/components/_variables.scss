@@ -1,2 +1,35 @@
 $color-example: #ff0000;
 $fontsize-example: 16px;
+
+/*カラー*/
+$white: #ffffff;
+$white_smoke: #f5f5f5;
+$gray_desertStorm: #ece9e6;
+$gray_gainsboro: #dddddd;
+$gray_nobel: #999999;
+$black_50: rgba(0, 0, 0, 0.5);
+$orange_zorba: #a19283;
+$orange_zorba: #442606;
+$black: #000000;
+
+/*文字サイズ*/
+$XS: 12px;
+$S: 14px;
+$M: 16px;
+$L: 20px;
+$XL: 36px;
+$XXL: 40px;
+
+/*フォント*/
+$fontfamily-mincho: "Roboto", "Noto Serif JP", "Noto Sans JP";
+$fontfamily-gothic: "Roboto", "Noto Serif JP", "Noto Sans JP";
+
+/*ブレークポイント*/
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
